@@ -1,0 +1,129 @@
+文件夹 PATH 列表
+卷序列号为 9EB4-025E
+C:.
+│  tree.txt
+│  
+├─BIN
+│      checker.exe
+│      checker.iobj
+│      checker.ipdb
+│      checker.pdb
+│      lib.lib
+│      Sudoku.exe
+│      Sudoku.iobj
+│      Sudoku.ipdb
+│      Sudoku.pdb
+│      Sudoku.txt
+│      xx.out
+│      
+└─Sudoku
+    │  Sudoku.sln
+    │  Sudoku.VC.db
+    │  
+    ├─checker
+    │  │  checker.vcxproj
+    │  │  checker.vcxproj.filters
+    │  │  checker.vcxproj.user
+    │  │  main.cpp
+    │  │  
+    │  └─Release
+    │      │  checker.log
+    │      │  checker.vcxprojResolveAssemblyReference.cache
+    │      │  main.obj
+    │      │  vc140.pdb
+    │      │  
+    │      └─checker.tlog
+    │              checker.lastbuildstate
+    │              CL.command.1.tlog
+    │              CL.read.1.tlog
+    │              CL.write.1.tlog
+    │              link.command.1.tlog
+    │              link.read.1.tlog
+    │              link.write.1.tlog
+    │              
+    ├─Debug
+    │      lib.lib
+    │      lib.pdb
+    │      Sudoku.exe
+    │      Sudoku.ilk
+    │      Sudoku.pdb
+    │      
+    ├─lib
+    │  │  check.cpp
+    │  │  check.h
+    │  │  generator.cpp
+    │  │  generator.h
+    │  │  lib.vcxproj
+    │  │  lib.vcxproj.filters
+    │  │  ReadMe.txt
+    │  │  
+    │  ├─Debug
+    │  │  │  check.obj
+    │  │  │  generator.obj
+    │  │  │  lib.Build.CppClean.log
+    │  │  │  lib.idb
+    │  │  │  lib.log
+    │  │  │  lib.pdb
+    │  │  │  
+    │  │  └─lib.tlog
+    │  │          CL.command.1.tlog
+    │  │          CL.read.1.tlog
+    │  │          CL.write.1.tlog
+    │  │          Lib-link.read.1.tlog
+    │  │          Lib-link.write.1.tlog
+    │  │          lib.command.1.tlog
+    │  │          lib.lastbuildstate
+    │  │          
+    │  └─Release
+    │      │  check.obj
+    │      │  generator.obj
+    │      │  lib.log
+    │      │  lib.pdb
+    │      │  
+    │      └─lib.tlog
+    │              CL.command.1.tlog
+    │              CL.read.1.tlog
+    │              CL.write.1.tlog
+    │              Lib-link.read.1.tlog
+    │              Lib-link.write.1.tlog
+    │              lib.command.1.tlog
+    │              lib.lastbuildstate
+    │              
+    ├─Release
+    └─Sudoku
+        │  main.cpp
+        │  Sudoku.vcxproj
+        │  Sudoku.vcxproj.filters
+        │  
+        ├─Debug
+        │  │  main.obj
+        │  │  Sudoku.Build.CppClean.log
+        │  │  Sudoku.log
+        │  │  Sudoku.vcxprojResolveAssemblyReference.cache
+        │  │  vc140.idb
+        │  │  vc140.pdb
+        │  │  
+        │  └─Sudoku.tlog
+        │          CL.command.1.tlog
+        │          CL.read.1.tlog
+        │          CL.write.1.tlog
+        │          link.command.1.tlog
+        │          link.read.1.tlog
+        │          link.write.1.tlog
+        │          Sudoku.lastbuildstate
+        │          
+        └─Release
+            │  main.obj
+            │  Sudoku.log
+            │  Sudoku.vcxprojResolveAssemblyReference.cache
+            │  vc140.pdb
+            │  
+            └─Sudoku.tlog
+                    CL.command.1.tlog
+                    CL.read.1.tlog
+                    CL.write.1.tlog
+                    link.command.1.tlog
+                    link.read.1.tlog
+                    link.write.1.tlog
+                    Sudoku.lastbuildstate
+                    

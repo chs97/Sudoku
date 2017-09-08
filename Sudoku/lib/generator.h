@@ -11,7 +11,6 @@ class generator
     int(*generateGrid(int topLine[]))[10][10];
     void generate(int n);
     void printGrid(int Grid[10][10]);
-  private:
-    int  (*firstLine)[10];
+    int(*firstLine)[10];
 };
 

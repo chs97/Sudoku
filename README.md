@@ -13,7 +13,11 @@
       -o <filepath> [default Sudoku.txt] 输出文件的路径. \n");
       -s <sn> [default 031502205] 学号.");
 ```
-在windows下命令行，进入BIN文件夹，运行 checker.exe -h 即可看到check的help
+在windows下命令行，进入BIN文件夹，运行 checker.exe <arguments>
+arguments: filepath , 待检查的文件路径
+example：
+    checker.exe _soduku.txt
+    checker.exe
 
 ### visual studio
 
@@ -21,5 +25,9 @@
 
 ## Running the tests
 
-在windows下命令行，进入BIN文件夹，运行unitTest.exe即可看到单元测试结果
-
+在VS中运行单元测试。
+进行测试的方法有：
+```
+check: checkDiff, checkSudoku, checkString2Int
+generator: 构造函数
+```

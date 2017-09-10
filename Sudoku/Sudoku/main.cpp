@@ -46,7 +46,13 @@ int main(int argc, char* argv[]) {
   int ssn =params["-s"][7] - '0' + params["-s"][8] - '0';
   clock_t startTime, endTime;
   startTime = clock();
-  freopen(params["-o"].c_str(), "w", stdout);
+  string argv_0 = argv[0];
+  int pos = argv_0.rfind('\\');
+  string files = "";
+  for (int i = 0; i <= pos; i++) files += argv_0[i];
+  files += params["-o"];
+  // cout << files << endl;
+  freopen( files.c_str(), "w", stdout);
   generator gn(ssn % 9 + 1);
   gn.generate(num);
   fclose(stdout);

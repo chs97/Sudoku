@@ -8,3 +8,5 @@
 /Sudoku/lib/Release
 /Sudoku/checker/Debug
 /Sudoku/checker/Release
+/Sudoku/unitTest/Debug
+/Sudoku/unitTest/Release

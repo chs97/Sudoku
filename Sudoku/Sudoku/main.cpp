@@ -12,6 +12,7 @@ int main(int argc, char* argv[]) {
   map<string, string> params;
   params["-s"] = "031502205";
   params["-o"] = "sudoku.txt";
+  params["-c"] = "1000000";
   bool isHelp = false;
   for (int i = 1; i < argc; i+= 2) {
     if (strcmp("-h", argv[i]) == 0) {

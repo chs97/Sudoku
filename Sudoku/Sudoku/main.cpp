@@ -56,8 +56,8 @@ int main(int argc, char* argv[]) {
   generator gn(ssn % 9 + 1);
   gn.generate(num);
   fclose(stdout);
-  freopen("CON", "w", stdout);
+  // freopen("CON", "w", stdout);
   endTime = clock();
-  cout << "Generated completed." << endl;
-  cout << "Totle Time : " << (double)(endTime - startTime) / CLOCKS_PER_SEC << "s" << endl;
+  // cout << "Generated completed." << endl;
+  // cout << "Totle Time : " << (double)(endTime - startTime) / CLOCKS_PER_SEC << "s" << endl;
 }
